@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Hi-Tech Bamboo Nursery</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .image-grid {
+            display:-moz-gri;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .image-grid img {
+            width: 100%;
+            border-radius: 50px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Bamboo Nursery</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="image-grid">
+            <img src="images/img1.jpg" alt="Bamboo Plant 1">
+            <img src="images/img2.jpg" alt="Bamboo Plant 2">
+            <img src="images/img3.jpg" alt="Bamboo Plant 3">
+            <img src="images/img4.jpg" alt="Bamboo Plant 3">
+            <img src="images/img5.jpg" alt="Bamboo Plant 3">
+            <img src="images/img6.jpg" alt="Bamboo Plant 3">
+            <img src="images/img7.jpg" alt="Bamboo Plant 3">
+            <img src="images/img8.jpg" alt="Bamboo Plant 3">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Hi-Tech Bamboo Nursery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
